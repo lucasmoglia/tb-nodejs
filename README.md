@@ -62,7 +62,7 @@ Tests can be launched running this commands (being at root directory):
 
 Sending a string to the main api `localhost:8090/api/` ...
 
-👾 The response status should be 200 sending just one word
-👾 The response status should be 404 if we dont send any word
-👾 The response status should be 200 sending more than one word at time
-👾 The response text message always should be equal
+* 👾 The response status should be 200 sending just one word
+* 👾 The response status should be 404 if we dont send any word
+* 👾 The response status should be 200 sending more than one word at time
+* 👾 The response text message always should be equal
