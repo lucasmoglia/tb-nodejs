@@ -1,0 +1,20 @@
+{
+  "name": "toolbox-test",
+  "version": "1.0.0",
+  "description": "API en Nodejs, a la cual se le pase un texto y responda con el mismo texto",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --timeout 10000 --exit"
+  },
+  "dependencies": {
+    "body-parser": "^1.5.1",
+    "chai": "^4.2.0",
+    "express": "^4.7.1",
+    "method-override": "^2.1.2",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "supertest": "^3.3.0"
+  },
+  "author": "Lucas Moglia",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server:
+    build: server/
+    image: toolbox-api-server
+    ports:
+    - "8090:8090"
+  client:
+    environment:
+    - text_param="example test"
+    build: client/
+    image: toolbox-api-client
+    links:
+    - server
