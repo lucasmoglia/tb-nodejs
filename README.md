@@ -26,8 +26,7 @@
 ## Launch instructions
 
 Inside the root folder run:
-> docker-compose build
-> docker-compose up
+> docker-compose build && docker-compose up
 
   
 ### Client
